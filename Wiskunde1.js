@@ -30,16 +30,7 @@ console.log(pythagorasoutput);
 
 // ---------------------------------------------------------
 
-let num1 = 20
-let num2 = 40
-let num3 = 60
-let num4 = 80
-let num5 = 100
-let num6 = 120
-let num7 = 140
-
-let sum = num1 + num2 + num3 + num4 + num5 + num6 + num7;
-
-let gemiddeld = sum / 7
-
-console.log(gemiddeld)
+function gemiddeld(a, b, c, d, e, f, g) {
+    return ( a + b + c + d + e + f + g) / 7; 
+}
+console.log(gemiddeld(20, 40, 80, 160, 200, 300, 400));
